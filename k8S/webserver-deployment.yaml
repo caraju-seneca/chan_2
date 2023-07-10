@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/docker-assignment:v0.1
+        image: 805782680160.dkr.ecr.us-east-1.amazonaws.com/chanchal-newrepo:appv0.1
         env:
         - name: DBHOST
           value: 10.96.75.170 
