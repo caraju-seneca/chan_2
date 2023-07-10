@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/docker-assignment:v1.0
+        image: 805782680160.dkr.ecr.us-east-1.amazonaws.com/chanchal-newrepo:sqlv1.0
         env:
           - name: MYSQL_ROOT_PASSWORD
             value: pwd
