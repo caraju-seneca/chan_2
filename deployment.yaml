@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: app-mock:v1.0
+        image: 504229971980.dkr.ecr.us-east-1.amazonaws.com/exam_repo:sqlv1.0
         ports:
         - containerPort: 8080
         volumeMounts:
